@@ -1,94 +1,100 @@
+@import url('//fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&');
+
+
+
 .widget {
   // replace this with your code
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 50%;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+width: 30%;
+height: 80%;
 
-  width: 20%;
-  height: 50%;
-
-  background: #ffffff;
-  box-shadow: 0px 4px 4px #d3e1da;
-  border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px #D3E1DA;
+border-radius: 10px;
 }
 
 h1 {
   position: absolute;
-  left: 7.87%;
-  right: 15.73%;
-  top: 6.45%;
-  bottom: 86.13%;
+left: 7.87%;
+right: 15.73%;
+top: 6.45%;
+bottom: 86.13%;
 
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 27px;
-  white-space: nowrap;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
 
-  color: #ee8b72;
+color: #EE8B72;
 }
 
 .oneYear {
   position: absolute;
-  left: 12%;
-  right: 57.68%;
-  top: 20%;
+left: 10.23%;
+right: 25.47%;
+top: 20%;
+bottom: 70.65%;
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 22px;
-  color: #ee8b72;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #EE8B72;
+
 }
 
 .fiveYear {
   position: absolute;
-  left: 12%;
-  right: 57.68%;
-  top: 40%;
+  left: 10.23%;
+right: 25.47%;
+top: 40%;
+bottom: 38.39%;
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 22px;
-  color: #ee8b72;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #EE8B72;
 }
 
 .goals {
   position: absolute;
-  left: 12%;
-  right: 57.68%;
-  top: 25%;
-  bottom: 76.77%;
+  left: 10.23%;
+right: 9.36%;
+top: 22.29%;
+bottom: 55.48%;
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 30px;
-  white-space: nowrap;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
 
-  color: #000000;
+color: #4B5853;
 }
 .goals2 {
   position: absolute;
-  left: 12%;
-  right: 57.68%;
-  top: 45%;
-  bottom: 76.77%;
+left:10.23%;
+right: 5.24%;
+top: 42.55%;
+bottom: 23.23%;
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 30px;
-  white-space: nowrap;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
 
-  color: #000000;
+color: #4B5853;
 }
 
 h3 {
@@ -102,11 +108,17 @@ h3 {
 .line {
   position: absolute;
   left: 7.87%;
-  top: 20%;
+right: 25.47%;
+top: 20%;
+bottom: 70.65%;
+ 
+  border-left: 2px solid #ee8b72;
+  height: 100px;
+  
+  
 
-  height: 120px;
 
-  border: 2px solid #ee8b72;
+  
 }
 
 .line2 {
@@ -116,5 +128,16 @@ h3 {
 
   height: 170px;
 
-  border: 2px solid #ee8b72;
+  border-left: 2px solid #ee8b72;
+}
+
+.img2{
+  
+  position: absolute;
+left: 82.4%;
+right: 7.87%;
+top: 82.9%;
+bottom: 8.71%;
+
+
 }
