@@ -28,7 +28,9 @@ export class WidgetComponent implements OnInit {
   // --------------- DATA BINDING ------------------------
 
   // --------------- EVENT BINDING -----------------------
-
+  edit() {
+    this.editGoals.emit()
+  }
   // --------------- HELPER FUNCTIONS AND OTHER ----------
 
   constructor() { }
